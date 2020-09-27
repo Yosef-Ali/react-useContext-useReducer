@@ -38,18 +38,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Conclusion
-Use const ___Context = React.createContext() to create context.
+- Use const ___Context = React.createContext() to create context.
 
-Pull ___Context.Provider and ___Context.Consumer out of ___Context
+- Pull ___Context.Provider and ___Context.Consumer out of ___Context
 
-Wrap Provider around your parent component.
+- Wrap Provider around your parent component.
 
-A class can consume with static contextType = ___Context
+- A class can consume with static contextType = ___Context
 
-A functional component can consume with const x = useContext(___Context)
+- A functional component can consume with const x = useContext(___Context)
 
-- [x] Write the press release
-- [ ] Update the website
-- [ ] Contact the media
+
 
 
