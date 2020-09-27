@@ -48,6 +48,8 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 - A functional component can consume with const x = useContext(___Context)
 
+- 'useReducer' allows functional components in React access to reducer functions from your state management.
+
 
 
 
